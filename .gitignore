@@ -1,0 +1,19 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Env virtuel
+.env
+venv/
+.venv/
+*.log
+
+# Pipenv
+Pipfile.lock
+
+# VS Code
+.vscode/
+
+# Migrations compilées
+*/migrations/__pycache__/
