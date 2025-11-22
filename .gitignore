@@ -1,19 +1,33 @@
-# Python / Django
+# Python
 __pycache__/
 *.py[cod]
-*.sqlite3
+*.pyo
+*.pyd
 
-# Env virtuel
+# SQLite (legacy)
+db.sqlite3
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+
+# Env vars
 .env
+*.env
+.env.*
 venv/
 .venv/
-*.log
-
-# Pipenv
-Pipfile.lock
 
 # VS Code
 .vscode/
 
-# Migrations compilées
-*/migrations/__pycache__/
+# Compiled migrations cache
+**/migrations/__pycache__/
+
+# Pipenv
+Pipfile.lock
+
+# System
+.DS_Store
+Thumbs.db
